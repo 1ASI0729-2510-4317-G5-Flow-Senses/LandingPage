@@ -1,0 +1,123 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-4);
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-8);
+  box-shadow: var(--shadow-lg);
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: var(--spacing-6);
+}
+
+.auth-header .logo {
+  display: inline-flex;
+  margin-bottom: var(--spacing-4);
+}
+
+.auth-header .logo img {
+  height: 40px;
+}
+
+.auth-header h1 {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-2);
+}
+
+.auth-header p {
+  color: var(--gray-600);
+  font-size: 0.9375rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2);
+}
+
+.form-group label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--gray-700);
+}
+
+.form-group input {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--border-radius-md);
+  font-size: 0.9375rem;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  transition: border-color 0.2s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.auth-form .btn {
+  margin-top: var(--spacing-2);
+}
+
+.auth-footer {
+  margin-top: var(--spacing-6);
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--gray-600);
+}
+
+.auth-footer a {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: var(--error-color);
+  font-size: 0.875rem;
+  margin-top: var(--spacing-2);
+}
+
+.dark-mode .auth-card {
+  background-color: var(--gray-800);
+}
+
+.dark-mode .form-group label {
+  color: var(--gray-400);
+}
+
+.dark-mode .form-group input {
+  border-color: var(--gray-700);
+  background-color: var(--gray-900);
+}
+
+.dark-mode .form-group input:focus {
+  border-color: var(--primary-lighter);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.dark-mode .auth-footer {
+  color: var(--gray-400);
+}
