@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flow Sense - Gestión inteligente del tiempo</title>
+  <title data-i18n="title">Flow Sense - Gestión inteligente del tiempo</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/hero.css">
@@ -21,7 +21,7 @@
       <div class="navbar-brand">
         <a href="#" class="logo">
           <img src="images/flowsenses.png" alt="Flow Sense">
-          <span>Flow Sense</span>
+          <span data-i18n="nav.brand">Flow Sense</span>
         </a>
       </div>
       
@@ -33,17 +33,17 @@
 
       <div class="navbar-menu">
         <ul class="navbar-links">
-          <li><a href="#caracteristicas">Características</a></li>
-          <li><a href="#beneficios">Beneficios</a></li>
-          <li><a href="#tecnologia">Tecnología</a></li>
-          <li><a href="#planes">Planes</a></li>
+          <li><a href="#caracteristicas" data-i18n="nav.features">Características</a></li>
+          <li><a href="#beneficios" data-i18n="nav.benefits">Beneficios</a></li>
+          <li><a href="#tecnologia" data-i18n="nav.technology">Tecnología</a></li>
+          <li><a href="#planes" data-i18n="nav.plans">Planes</a></li>
         </ul>
         <div class="navbar-actions">
           <button class="theme-toggle">
-            <img src="https://api.iconify.design/mdi:weather-night.svg" alt="Dark mode">
+            <img class="theme-icon" src="https://api.iconify.design/mdi:weather-night.svg" alt="Dark mode">
           </button>
-          <a href="/login.html" class="btn btn-text">Iniciar sesión</a>
-          <a href="/register.html" class="btn btn-primary">Prueba gratuita</a>
+          <a href="/login.html" class="btn btn-text" data-i18n="nav.login">Iniciar sesión</a>
+          <a href="/register.html" class="btn btn-primary" data-i18n="nav.trial">Prueba gratuita</a>
         </div>
       </div>
     </div>
@@ -53,12 +53,12 @@
     <div class="container">
       <div class="hero-content">
         <div class="hero-text">
-          <span class="label">Innovación en productividad</span>
-          <h1>Transforma tu gestión del tiempo con Flow Sense</h1>
-          <p>Soluciones inteligentes de productividad para empresas y freelancers con tecnología IoT e IA.</p>
+          <span class="label" data-i18n="hero.label">Innovación en productividad</span>
+          <h1 data-i18n="hero.title">Transforma tu gestión del tiempo con Flow Sense</h1>
+          <p data-i18n="hero.description">Soluciones inteligentes de productividad para empresas y freelancers con tecnología IoT e IA.</p>
           <div class="hero-actions">
-            <a href="#" class="btn btn-primary btn-arrow">Comenzar ahora</a>
-            <a href="#" class="btn btn-outline">Solicitar demo</a>
+            <a href="#" class="btn btn-primary btn-arrow" data-i18n="hero.cta.start">Comenzar ahora</a>
+            <a href="#" class="btn btn-outline" data-i18n="hero.cta.demo">Solicitar demo</a>
           </div>
         </div>
         <div class="hero-image">
@@ -71,15 +71,15 @@
   <section class="features" id="caracteristicas">
     <div class="container">
       <div class="section-header">
-        <span class="label">Soluciones adaptadas</span>
-        <h2>Una plataforma, múltiples soluciones</h2>
-        <p>Flow Sense se adapta a las necesidades específicas de empresas y profesionales independientes.</p>
+        <span class="label" data-i18n="features.label">Soluciones adaptadas</span>
+        <h2 data-i18n="features.title">Una plataforma, múltiples soluciones</h2>
+        <p data-i18n="features.description">Flow Sense se adapta a las necesidades específicas de empresas y profesionales independientes.</p>
       </div>
       
       <div class="tabs">
         <div class="tab-header">
-          <button class="tab-btn active" data-tab="empresas">Para Empresas</button>
-          <button class="tab-btn" data-tab="freelancers">Para Freelancers</button>
+          <button class="tab-btn active" data-tab="empresas" data-i18n="features.tabs.business">Para Empresas</button>
+          <button class="tab-btn" data-tab="freelancers" data-i18n="features.tabs.freelancer">Para Freelancers</button>
         </div>
         
         <div class="tab-content">
@@ -89,28 +89,28 @@
                 <div class="feature-icon">
                   <img src="https://api.iconify.design/mdi:clock-outline.svg" alt="Supervisión">
                 </div>
-                <h3>Supervisión en tiempo real</h3>
-                <p>Monitoreo del personal y entorno de trabajo con datos precisos para toma de decisiones.</p>
+                <h3 data-i18n="features.business.card1.title">Supervisión en tiempo real</h3>
+                <p data-i18n="features.business.card1.description">Monitoreo del personal y entorno de trabajo con datos precisos para toma de decisiones.</p>
               </div>
               
               <div class="feature-card">
                 <div class="feature-icon">
                   <img src="https://api.iconify.design/mdi:calendar-clock.svg" alt="Gestión">
                 </div>
-                <h3>Gestión de turnos</h3>
-                <p>Automatización eficiente de turnos y horarios adaptados a las necesidades de tu equipo.</p>
+                <h3 data-i18n="features.business.card2.title">Gestión de turnos</h3>
+                <p data-i18n="features.business.card2.description">Automatización eficiente de turnos y horarios adaptados a las necesidades de tu equipo.</p>
               </div>
               
               <div class="feature-card">
                 <div class="feature-icon">
                   <img src="https://api.iconify.design/mdi:chart-line.svg" alt="Análisis">
                 </div>
-                <h3>Análisis de productividad</h3>
-                <p>Métricas detalladas y análisis de datos para optimizar procesos y mejorar resultados.</p>
+                <h3 data-i18n="features.business.card3.title">Análisis de productividad</h3>
+                <p data-i18n="features.business.card3.description">Métricas detalladas y análisis de datos para optimizar procesos y mejorar resultados.</p>
               </div>
             </div>
             <div class="features-cta">
-              <a href="#" class="btn btn-primary">Soluciones para empresas</a>
+              <a href="#" class="btn btn-primary" data-i18n="features.business.cta">Soluciones para empresas</a>
             </div>
           </div>
           
@@ -120,28 +120,28 @@
                 <div class="feature-icon">
                   <img src="https://api.iconify.design/mdi:clock-check-outline.svg" alt="Registro">
                 </div>
-                <h3>Registro automático de horas</h3>
-                <p>Seguimiento automático del tiempo dedicado a cada proyecto sin esfuerzo manual.</p>
+                <h3 data-i18n="features.freelancer.card1.title">Registro automático de horas</h3>
+                <p data-i18n="features.freelancer.card1.description">Seguimiento automático del tiempo dedicado a cada proyecto sin esfuerzo manual.</p>
               </div>
               
               <div class="feature-card">
                 <div class="feature-icon">
                   <img src="https://api.iconify.design/mdi:account-group.svg" alt="Clientes">
                 </div>
-                <h3>Gestión de clientes</h3>
-                <p>Organiza tus clientes, proyectos y tareas en un solo lugar de forma efectiva.</p>
+                <h3 data-i18n="features.freelancer.card2.title">Gestión de clientes</h3>
+                <p data-i18n="features.freelancer.card2.description">Organiza tus clientes, proyectos y tareas en un solo lugar de forma efectiva.</p>
               </div>
               
               <div class="feature-card">
                 <div class="feature-icon">
                   <img src="https://api.iconify.design/mdi:file-document-outline.svg" alt="Facturación">
                 </div>
-                <h3>Facturación inteligente</h3>
-                <p>Genera facturas automáticas basadas en el tiempo registrado y las tarifas establecidas.</p>
+                <h3 data-i18n="features.freelancer.card3.title">Facturación inteligente</h3>
+                <p data-i18n="features.freelancer.card3.description">Genera facturas automáticas basadas en el tiempo registrado y las tarifas establecidas.</p>
               </div>
             </div>
             <div class="features-cta">
-              <a href="#" class="btn btn-primary">Soluciones para freelancers</a>
+              <a href="#" class="btn btn-primary" data-i18n="features.freelancer.cta">Soluciones para freelancers</a>
             </div>
           </div>
         </div>
@@ -152,9 +152,9 @@
   <section class="benefits" id="beneficios">
     <div class="container">
       <div class="section-header">
-        <span class="label">Por qué elegirnos</span>
-        <h2>Beneficios que transforman tu trabajo</h2>
-        <p>Flow Sense combina tecnología avanzada con diseño intuitivo para mejorar tu productividad.</p>
+        <span class="label" data-i18n="benefits.label">Por qué elegirnos</span>
+        <h2 data-i18n="benefits.title">Beneficios que transforman tu trabajo</h2>
+        <p data-i18n="benefits.description">Flow Sense combina tecnología avanzada con diseño intuitivo para mejorar tu productividad.</p>
       </div>
       
       <div class="benefits-grid">
@@ -162,48 +162,48 @@
           <div class="benefit-icon">
             <img src="https://api.iconify.design/mdi:rocket-launch-outline.svg" alt="Eficiencia">
           </div>
-          <h3>Eficiencia mejorada</h3>
-          <p>Optimiza procesos y reduce el tiempo dedicado a tareas administrativas.</p>
+          <h3 data-i18n="benefits.card1.title">Eficiencia mejorada</h3>
+          <p data-i18n="benefits.card1.description">Optimiza procesos y reduce el tiempo dedicado a tareas administrativas.</p>
         </div>
         
         <div class="benefit-card">
           <div class="benefit-icon">
             <img src="https://api.iconify.design/mdi:robot.svg" alt="Automatización">
           </div>
-          <h3>Automatización inteligente</h3>
-          <p>Deja que la IA se encargue de las tareas repetitivas mientras te enfocas en lo importante.</p>
+          <h3 data-i18n="benefits.card2.title">Automatización inteligente</h3>
+          <p data-i18n="benefits.card2.description">Deja que la IA se encargue de las tareas repetitivas mientras te enfocas en lo importante.</p>
         </div>
         
         <div class="benefit-card">
           <div class="benefit-icon">
             <img src="https://api.iconify.design/mdi:devices.svg" alt="Acceso">
           </div>
-          <h3>Acceso desde cualquier lugar</h3>
-          <p>Gestiona tu trabajo desde cualquier dispositivo, en cualquier momento.</p>
+          <h3 data-i18n="benefits.card3.title">Acceso desde cualquier lugar</h3>
+          <p data-i18n="benefits.card3.description">Gestiona tu trabajo desde cualquier dispositivo, en cualquier momento.</p>
         </div>
         
         <div class="benefit-card">
           <div class="benefit-icon">
             <img src="https://api.iconify.design/mdi:account-group-outline.svg" alt="Colaboración">
           </div>
-          <h3>Colaboración mejorada</h3>
-          <p>Facilita la comunicación y el trabajo en equipo con herramientas colaborativas.</p>
+          <h3 data-i18n="benefits.card4.title">Colaboración mejorada</h3>
+          <p data-i18n="benefits.card4.description">Facilita la comunicación y el trabajo en equipo con herramientas colaborativas.</p>
         </div>
         
         <div class="benefit-card">
           <div class="benefit-icon">
             <img src="https://api.iconify.design/mdi:chart-box-outline.svg" alt="Análisis">
           </div>
-          <h3>Análisis detallado</h3>
-          <p>Obtén insights valiosos sobre tu productividad y áreas de mejora.</p>
+          <h3 data-i18n="benefits.card5.title">Análisis detallado</h3>
+          <p data-i18n="benefits.card5.description">Obtén insights valiosos sobre tu productividad y áreas de mejora.</p>
         </div>
         
         <div class="benefit-card">
           <div class="benefit-icon">
             <img src="https://api.iconify.design/mdi:head-cog-outline.svg" alt="Asistencia">
           </div>
-          <h3>Asistencia personalizada</h3>
-          <p>Recibe recomendaciones adaptadas a tu estilo de trabajo y necesidades.</p>
+          <h3 data-i18n="benefits.card6.title">Asistencia personalizada</h3>
+          <p data-i18n="benefits.card6.description">Recibe recomendaciones adaptadas a tu estilo de trabajo y necesidades.</p>
         </div>
       </div>
     </div>
@@ -212,9 +212,9 @@
   <section class="technology" id="tecnologia">
     <div class="container">
       <div class="section-header">
-        <span class="label">Tecnología avanzada</span>
-        <h2>Impulsado por tecnologías emergentes</h2>
-        <p>Flow Sense integra lo último en tecnología para ofrecer una experiencia sin precedentes.</p>
+        <span class="label" data-i18n="tech.label">Tecnología avanzada</span>
+        <h2 data-i18n="tech.title">Impulsado por tecnologías emergentes</h2>
+        <p data-i18n="tech.description">Flow Sense integra lo último en tecnología para ofrecer una experiencia sin precedentes.</p>
       </div>
       
       <div class="tech-grid">
@@ -222,24 +222,24 @@
           <div class="tech-icon">
             <img src="https://api.iconify.design/mdi:chip.svg" alt="IoT Icon">
           </div>
-          <h3>Sensores IoT</h3>
-          <p>Sensores inteligentes que capturan datos del entorno de trabajo para análisis en tiempo real.</p>
+          <h3 data-i18n="tech.card1.title">Sensores IoT</h3>
+          <p data-i18n="tech.card1.description">Sensores inteligentes que capturan datos del entorno de trabajo para análisis en tiempo real.</p>
         </div>
         
         <div class="tech-card">
           <div class="tech-icon">
             <img src="https://api.iconify.design/mdi:brain.svg" alt="AI Icon">
           </div>
-          <h3>Inteligencia Artificial</h3>
-          <p>Algoritmos avanzados que aprenden de tus patrones de trabajo para ofrecer recomendaciones personalizadas.</p>
+          <h3 data-i18n="tech.card2.title">Inteligencia Artificial</h3>
+          <p data-i18n="tech.card2.description">Algoritmos avanzados que aprenden de tus patrones de trabajo para ofrecer recomendaciones personalizadas.</p>
         </div>
         
         <div class="tech-card">
           <div class="tech-icon">
             <img src="https://api.iconify.design/mdi:microphone.svg" alt="Voice Assistant Icon">
           </div>
-          <h3>Asistentes de voz</h3>
-          <p>Integración con asistentes de voz para una gestión manos libres de tus tareas y proyectos.</p>
+          <h3 data-i18n="tech.card3.title">Asistentes de voz</h3>
+          <p data-i18n="tech.card3.description">Integración con asistentes de voz para una gestión manos libres de tus tareas y proyectos.</p>
         </div>
       </div>
     </div>
@@ -248,131 +248,131 @@
   <section class="pricing" id="planes">
     <div class="container">
       <div class="section-header">
-        <span class="label">Planes</span>
-        <h2>Elige el plan que mejor se adapte a ti</h2>
-        <p>Soluciones flexibles para empresas de todos los tamaños y profesionales independientes.</p>
+        <span class="label" data-i18n="pricing.label">Planes</span>
+        <h2 data-i18n="pricing.title">Elige el plan que mejor se adapte a ti</h2>
+        <p data-i18n="pricing.description">Soluciones flexibles para empresas de todos los tamaños y profesionales independientes.</p>
       </div>
       
       <div class="pricing-grid">
         <div class="pricing-card">
           <div class="pricing-header">
-            <h3>Freelancer</h3>
-            <p>Ideal para profesionales independientes</p>
+            <h3 data-i18n="pricing.freelancer.title">Freelancer</h3>
+            <p data-i18n="pricing.freelancer.subtitle">Ideal para profesionales independientes</p>
             <div class="pricing-price">
-              <span class="currency">S/</span>
-              <span class="amount">69</span>
-              <span class="period">/mes</span>
+              <span class="currency" data-i18n="pricing.currency">S/</span>
+              <span class="amount" data-i18n="pricing.freelancer.price">69</span>
+              <span class="period" data-i18n="pricing.period">/mes</span>
             </div>
           </div>
           <div class="pricing-features">
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Registro automático de horas</span>
+              <span data-i18n="pricing.freelancer.feature1">Registro automático de horas</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Gestión de hasta 10 clientes</span>
+              <span data-i18n="pricing.freelancer.feature2">Gestión de hasta 10 clientes</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Facturación básica</span>
+              <span data-i18n="pricing.freelancer.feature3">Facturación básica</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Integración con 1 asistente de voz</span>
+              <span data-i18n="pricing.freelancer.feature4">Integración con 1 asistente de voz</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Soporte por email</span>
+              <span data-i18n="pricing.freelancer.feature5">Soporte por email</span>
             </div>
           </div>
           <div class="pricing-cta">
-            <a href="#" class="btn btn-primary">Comenzar prueba gratuita</a>
+            <a href="#" class="btn btn-primary" data-i18n="pricing.cta.trial">Comenzar prueba gratuita</a>
           </div>
         </div>
         
         <div class="pricing-card popular">
-          <div class="pricing-tag">Popular</div>
+          <div class="pricing-tag" data-i18n="pricing.popular">Popular</div>
           <div class="pricing-header">
-            <h3>Business</h3>
-            <p>Para pequeñas y medianas empresas</p>
+            <h3 data-i18n="pricing.business.title">Business</h3>
+            <p data-i18n="pricing.business.subtitle">Para pequeñas y medianas empresas</p>
             <div class="pricing-price">
-              <span class="currency">S/</span>
-              <span class="amount">179</span>
-              <span class="period">/mes</span>
+              <span class="currency" data-i18n="pricing.currency">S/</span>
+              <span class="amount" data-i18n="pricing.business.price">179</span>
+              <span class="period" data-i18n="pricing.period">/mes</span>
             </div>
           </div>
           <div class="pricing-features">
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Todo lo de Freelancer</span>
+              <span data-i18n="pricing.business.feature1">Todo lo de Freelancer</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Supervisión en tiempo real</span>
+              <span data-i18n="pricing.business.feature2">Supervisión en tiempo real</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Gestión de turnos</span>
+              <span data-i18n="pricing.business.feature3">Gestión de turnos</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Análisis de productividad</span>
+              <span data-i18n="pricing.business.feature4">Análisis de productividad</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Hasta 25 usuarios</span>
+              <span data-i18n="pricing.business.feature5">Hasta 25 usuarios</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Soporte prioritario</span>
+              <span data-i18n="pricing.business.feature6">Soporte prioritario</span>
             </div>
           </div>
           <div class="pricing-cta">
-            <a href="#" class="btn btn-primary">Comenzar prueba gratuita</a>
+            <a href="#" class="btn btn-primary" data-i18n="pricing.cta.trial">Comenzar prueba gratuita</a>
           </div>
         </div>
         
         <div class="pricing-card">
           <div class="pricing-header">
-            <h3>Enterprise</h3>
-            <p>Soluciones personalizadas para grandes empresas</p>
+            <h3 data-i18n="pricing.enterprise.title">Enterprise</h3>
+            <p data-i18n="pricing.enterprise.subtitle">Soluciones personalizadas para grandes empresas</p>
             <div class="pricing-price">
-              <span class="contact">Contactar</span>
+              <span class="contact" data-i18n="pricing.enterprise.contact">Contactar</span>
             </div>
           </div>
           <div class="pricing-features">
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Todo lo de Business</span>
+              <span data-i18n="pricing.enterprise.feature1">Todo lo de Business</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Usuarios ilimitados</span>
+              <span data-i18n="pricing.enterprise.feature2">Usuarios ilimitados</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>API personalizada</span>
+              <span data-i18n="pricing.enterprise.feature3">API personalizada</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Integración con sistemas existentes</span>
+              <span data-i18n="pricing.enterprise.feature4">Integración con sistemas existentes</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Sensores IoT personalizados</span>
+              <span data-i18n="pricing.enterprise.feature5">Sensores IoT personalizados</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Soporte 24/7</span>
+              <span data-i18n="pricing.enterprise.feature6">Soporte 24/7</span>
             </div>
             <div class="pricing-feature">
               <img src="https://api.iconify.design/mdi:check.svg" alt="Check">
-              <span>Gerente de cuenta dedicado</span>
+              <span data-i18n="pricing.enterprise.feature7">Gerente de cuenta dedicado</span>
             </div>
           </div>
           <div class="pricing-cta">
-            <a href="#" class="btn btn-outline">Contactar ventas</a>
+            <a href="#" class="btn btn-outline" data-i18n="pricing.cta.contact">Contactar ventas</a>
           </div>
         </div>
       </div>
@@ -382,9 +382,9 @@
   <section class="testimonials" id="testimonios">
     <div class="container">
       <div class="section-header">
-        <span class="label">Testimonios</span>
-        <h2>Lo que dicen nuestros usuarios</h2>
-        <p>Descubre cómo Flow Sense ha transformado la productividad de empresas y profesionales.</p>
+        <span class="label" data-i18n="testimonials.label">Testimonios</span>
+        <h2 data-i18n="testimonials.title">Lo que dicen nuestros usuarios</h2>
+        <p data-i18n="testimonials.description">Descubre cómo Flow Sense ha transformado la productividad de empresas y profesionales.</p>
       </div>
       
       <div class="testimonials-container">
@@ -406,39 +406,64 @@
 
   <section class="cta">
     <div class="container">
-      <h2>Transforma tu productividad hoy mismo</h2>
-      <p>Únete a miles de empresas y profesionales que ya han mejorado su eficiencia con Flow Sense.</p>
+      <h2 data-i18n="cta.title">Transforma tu productividad hoy mismo</h2>
+      <p data-i18n="cta.description">Únete a miles de empresas y profesionales que ya han mejorado su eficiencia con Flow Sense.</p>
       <div class="cta-actions">
-        <a href="#" class="btn btn-light">Comenzar ahora →</a>
-        <a href="#" class="btn btn-outline-light">Solicitar demo</a>
+        <a href="#" class="btn btn-light" data-i18n="cta.start">Comenzar ahora →</a>
+        <a href="#" class="btn btn-outline-light" data-i18n="cta.demo">Solicitar demo</a>
       </div>
     </div>
   </section>
 
   <footer class="footer">
-    <div class="container">
+  <div class="container">
+    <div class="footer-main">
       <div class="footer-brand">
         <a href="#" class="logo">
           <img src="images/flowsenses.png" alt="Flow Sense">
-          Flow Sense
+          <span data-i18n="footer.brand">Flow Sense</span>
         </a>
       </div>
       
       <div class="footer-links">
-        <a href="#">Términos</a>
-        <a href="#">Privacidad</a>
-        <a href="#">Contacto</a>
+        <a href="#" data-i18n="footer.terms">Términos</a>
+        <a href="#" data-i18n="footer.privacy">Privacidad</a>
+        <a href="#" data-i18n="footer.contact">Contacto</a>
       </div>
-      
-      <div class="footer-copyright">
-        <p>© 2025 Flow Sense. Todos los derechos reservados.</p>
+
+      <div class="footer-social">
+        <a href="#" target="_blank">
+          <img src="https://api.iconify.design/mdi:instagram.svg" alt="Instagram" />
+        </a>
+        <a href="#" target="_blank">
+          <img src="https://api.iconify.design/mdi:facebook.svg" alt="Facebook" />
+        </a>
+        <a href="#" target="_blank">
+          <img src="https://api.iconify.design/mdi:youtube.svg" alt="YouTube" />
+        </a>
+        <a href="#" target="_blank">
+          <img src="https://api.iconify.design/simple-icons:tiktok.svg" alt="TikTok" />
+        </a>
+      </div>
+
+      <div class="language-switcher">
+        <div class="language-options">
+          <div class="language-option active" data-lang="es" data-i18n="footer.lang.es">ES</div>
+          <div class="language-option" data-lang="en" data-i18n="footer.lang.en">EN</div>
+        </div>
       </div>
     </div>
-  </footer>
+    
+    <div class="footer-copyright">
+      <p data-i18n="footer.copyright">© 2025 Flow Sense. Todos los derechos reservados.</p>
+    </div>
+  </div>
+</footer>
 
   <script src="js/main.js"></script>
   <script src="js/navbar.js"></script>
   <script src="js/testimonials.js"></script>
   <script src="js/animations.js"></script>
+  <script src="js/language.js"></script>
 </body>
 </html>

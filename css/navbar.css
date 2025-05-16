@@ -39,7 +39,7 @@
 .navbar-menu {
   position: fixed;
   top: 0;
-  right: -100%;
+  right: 0; /* Keep the menu aligned to the right */
   bottom: 0;
   width: 100%;
   height: 100vh;
@@ -51,10 +51,12 @@
   transition: all 0.3s ease;
   box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
   z-index: 100;
+  transform: translateX(100%); /* Use transform instead of positioning for better performance */
+  overflow-x: hidden; /* Prevent horizontal scrolling within the menu */
 }
 
 .navbar-menu.active {
-  right: 0;
+  transform: translateX(0); /* Just slide in, don't change positioning */
 }
 
 .navbar-links {
@@ -98,7 +100,7 @@
 }
 
 .theme-toggle {
-  background: none;
+  background:none;
   border: none;
   cursor: pointer;
   display: flex;
@@ -111,15 +113,18 @@
   width: auto;
 }
 
-.theme-toggle img {
-  width: 24px;
-  height: 24px;
+.theme-toggle .theme-icon {
+  width: 20px !important;
+  height: 20px !important;
+  flex-shrink: 0;
+  object-fit: contain;
 }
 
 .theme-toggle:hover {
   color: var(--gray-900);
   background-color: var(--gray-100);
 }
+
 .navbar-toggle {
   display: block;
   background: none;
@@ -167,10 +172,6 @@
   top: 16px;
 }
 
-body.menu-open {
-  overflow: hidden;
-}
-
 .dark-mode .navbar {
   border-color: var(--gray-800);
 }
@@ -191,8 +192,6 @@ body.menu-open {
   color: var(--gray-200);
   background-color: var(--gray-800);
 }
-
-
 
 .menu-overlay {
   position: fixed;
@@ -228,6 +227,7 @@ body.menu-open {
     flex-direction: row;
     align-items: center;
     gap: var(--spacing-8);
+    transform: none; /* Remove transform for desktop */
   }
 
   .navbar-links {
@@ -256,8 +256,16 @@ body.menu-open {
     display: none;
   }
 
-  .theme-toggle {
-    width: auto;
-    padding: var(--spacing-2);
-  }
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body.menu-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
